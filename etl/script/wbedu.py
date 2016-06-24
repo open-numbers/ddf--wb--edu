@@ -29,14 +29,14 @@ def extract_concepts_continuous(data):
     return cont
 
 
-def extract_concepts_descrete(data):
-    desc = [['name', 'Name', 'string'],
+def extract_concepts_discrete(data):
+    disc = [['name', 'Name', 'string'],
             ['year', 'Year', 'time'],
             ['country', 'Country', 'entity_domain']
             ]
-    desc_df = pd.DataFrame(desc, columns=['concept', 'name', 'concept_type'])
+    disc_df = pd.DataFrame(disc, columns=['concept', 'name', 'concept_type'])
 
-    return desc_df
+    return disc_df
 
 
 def extract_datapoints(data):
@@ -67,9 +67,9 @@ if __name__ == '__main__':
     path = os.path.join(out_dir, 'ddf--concepts--continuous.csv')
     cont.to_csv(path, index=False)
 
-    desc = extract_concepts_descrete(data)
-    path = os.path.join(out_dir, 'ddf--concepts--descrete.csv')
-    desc.to_csv(path, index=False)
+    disc = extract_concepts_discrete(data)
+    path = os.path.join(out_dir, 'ddf--concepts--discrete.csv')
+    disc.to_csv(path, index=False)
 
     print('creating entities files...')
     country = extract_entities_country(data)
