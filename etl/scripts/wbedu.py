@@ -5,10 +5,9 @@ import numpy as np
 import os
 
 from ddf_utils.str import to_concept_id
-from ddf_utils.index import create_index_file
 
 # configuration of file path
-source_data = 'source/EdStats_Data.csv'
+source_data = '../source/Edstats_csv/EdStatsData.csv'
 out_dir = '../../'
 
 
@@ -46,7 +45,7 @@ def extract_datapoints(data):
     dps = dps.rename(columns={'country_code': 'country'})
 
     for c, ids in dps.groupby('indicator_code').groups.items():
-        df = dps.ix[ids].copy()
+        df = dps.loc[ids].copy()
         df = df.drop(['indicator_code'], axis=1)
         df = df.set_index('country')
 
@@ -78,10 +77,7 @@ if __name__ == '__main__':
 
     print('creating datapoints files...')
     for c, df in extract_datapoints(data):
-        path = os.path.join(out_dir, 'ddf--datapoints--{}--by--country--year'.format(c))
+        path = os.path.join(out_dir, 'ddf--datapoints--{}--by--country--year.csv'.format(c))
         df.to_csv(path, index=False)
-
-    print('creating index file...')
-    create_index_file(out_dir)
 
     print('Done.')

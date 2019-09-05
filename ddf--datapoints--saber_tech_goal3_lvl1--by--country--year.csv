@@ -3,9 +3,10 @@ year,country,saber_tech_goal3_lvl1
 2010,egy,3.0
 2010,jor,4.0
 2010,lbn,1.0
-2010,wbg,3.0
+2010,pse,3.0
 2010,yem,4.0
 2011,khm,1.0
+2011,kgz,2.0
 2011,tun,3.0
 2012,ben,1.0
 2012,civ,1.0
@@ -13,9 +14,10 @@ year,country,saber_tech_goal3_lvl1
 2012,guy,1.0
 2012,jam,3.0
 2012,mli,1.0
+2012,nga,2.0
 2012,srb,4.0
 2012,uga,1.0
-2013,bgr,2.0
+2013,bgr,1.0
 2013,kaz,1.0
 2013,mkd,4.0
 2013,pry,1.0
@@ -24,5 +26,5 @@ year,country,saber_tech_goal3_lvl1
 2014,mda,3.0
 2014,png,1.0
 2014,rus,2.0
-2014,slb,1.0
 2014,wsm,2.0
+2014,slb,1.0

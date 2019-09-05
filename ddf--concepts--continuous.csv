@@ -1120,6 +1120,18 @@ uis_lr_ag65,"Elderly literacy rate, population 65+ years, both sexes (%)",measur
 uis_lr_ag65_f,"Elderly literacy rate, population 65+ years, female (%)",measure
 uis_lr_ag65_gpi,"Elderly literacy rate, population 65+ years, gender parity index (GPI)",measure
 uis_lr_ag65_m,"Elderly literacy rate, population 65+ years, male (%)",measure
+uis_e_0_t,"Enrolment in early childhood education, both sexes (number)",measure
+uis_e_0_f,"Enrolment in early childhood education, female (number)",measure
+uis_e_0_pr_t,"Enrolment in early childhood education, private institutions, both sexes (number)",measure
+uis_e_0_pr_f,"Enrolment in early childhood education, private institutions, female (number)",measure
+uis_e_0_pu_t,"Enrolment in early childhood education, public institutions, both sexes (number)",measure
+uis_e_0_pu_f,"Enrolment in early childhood education, public institutions, female (number)",measure
+uis_e_01_t,"Enrolment in early childhood educational development programmes, both sexes (number)",measure
+uis_e_01_f,"Enrolment in early childhood educational development programmes, female (number)",measure
+uis_e_01_pr_t,"Enrolment in early childhood educational development programmes, private institutions, both sexes (number)",measure
+uis_e_01_pr_f,"Enrolment in early childhood educational development programmes, private institutions, female (number)",measure
+uis_e_01_pu_t,"Enrolment in early childhood educational development programmes, public institutions, both sexes (number)",measure
+uis_e_01_pu_f,"Enrolment in early childhood educational development programmes, public institutions, female (number)",measure
 uis_e_2_gpv_g1_t,"Enrolment in Grade 1 of lower secondary general education, both sexes (number)",measure
 uis_e_2_gpv_g1_f,"Enrolment in Grade 1 of lower secondary general education, female (number)",measure
 uis_e_1_g1,"Enrolment in Grade 1 of primary education, both sexes (number)",measure
@@ -1140,6 +1152,8 @@ uis_e_2_gpv_g5_t,"Enrolment in Grade 5 of lower secondary general education, bot
 uis_e_2_gpv_g5_f,"Enrolment in Grade 5 of lower secondary general education, female (number)",measure
 uis_e_1_g5,"Enrolment in Grade 5 of primary education, both sexes (number)",measure
 uis_e_1_g5_f,"Enrolment in Grade 5 of primary education, female (number)",measure
+uis_e_2_gpv_g6_t,"Enrolment in Grade 6 of lower secondary general education, both sexes (number)",measure
+uis_e_2_gpv_g6_f,"Enrolment in Grade 6 of lower secondary general education, female (number)",measure
 uis_e_1_g6,"Enrolment in Grade 6 of primary education, both sexes (number)",measure
 uis_e_1_g6_f,"Enrolment in Grade 6 of primary education, female (number)",measure
 uis_e_1_g7,"Enrolment in Grade 7 of primary education, both sexes (number)",measure
@@ -1164,10 +1178,10 @@ uis_e_4_pu,"Enrolment in post-secondary non-tertiary education, public instituti
 uis_e_4_pu_f,"Enrolment in post-secondary non-tertiary education, public institutions, female (number)",measure
 se_pre_enrl,"Enrolment in pre-primary education, both sexes (number)",measure
 se_pre_enrl_fe,"Enrolment in pre-primary education, female (number)",measure
-uis_e_0_pr,"Enrolment in pre-primary education, private institutions, both sexes (number)",measure
-uis_e_0_pr_f,"Enrolment in pre-primary education, private institutions, female (number)",measure
-uis_e_0_pu,"Enrolment in pre-primary education, public institutions, both sexes (number)",measure
-uis_e_0_pu_f,"Enrolment in pre-primary education, public institutions, female (number)",measure
+uis_e_02_pr,"Enrolment in pre-primary education, private institutions, both sexes (number)",measure
+uis_e_02_pr_f,"Enrolment in pre-primary education, private institutions, female (number)",measure
+uis_e_02_pu,"Enrolment in pre-primary education, public institutions, both sexes (number)",measure
+uis_e_02_pu_f,"Enrolment in pre-primary education, public institutions, female (number)",measure
 se_prm_enrl,"Enrolment in primary education, both sexes (number)",measure
 se_prm_enrl_fe,"Enrolment in primary education, female (number)",measure
 uis_e_1_guk,"Enrolment in primary education, Grade unspecified, both sexes (number)",measure
@@ -1219,6 +1233,8 @@ uis_xpubp_0,Expenditure on pre-primary as % of government expenditure on educati
 uis_xgovexp_imf_0,Expenditure on pre-primary as % of total government expenditure (%),measure
 se_xpd_prim_zs,Expenditure on primary as % of government expenditure on education (%),measure
 uis_xgovexp_imf_1,Expenditure on primary as % of total government expenditure (%),measure
+uis_xpubp_2t4_v,Expenditure on secondary and post-secondary non-tertiary vocational as % of government expenditure on education (%),measure
+uis_xgovexp_imf_2t4_v,Expenditure on secondary and post-secondary non-tertiary vocational education as % of total government expenditure (%),measure
 se_xpd_seco_zs,Expenditure on secondary as % of government expenditure on education (%),measure
 uis_xgovexp_imf_23,Expenditure on secondary as % of total government expenditure (%),measure
 se_xpd_tert_zs,Expenditure on tertiary as % of government expenditure on education (%),measure
@@ -1247,6 +1263,7 @@ se_xpd_totl_gd_zs,Government expenditure on education as % of GDP (%),measure
 uis_xgdp_4_fsgov,Government expenditure on post-secondary non-tertiary education as % of GDP (%),measure
 uis_xgdp_0_fsgov,Government expenditure on pre-primary education as % of GDP (%),measure
 uis_xgdp_1_fsgov,Government expenditure on primary education as % of GDP (%),measure
+uis_xgdp_2t4_v_fsgov,Government expenditure on secondary and post-secondary non-tertiary vocational education as % of GDP (%),measure
 uis_xgdp_23_fsgov,Government expenditure on secondary education as % of GDP (%),measure
 uis_xgdp_56_fsgov,Government expenditure on tertiary education as % of GDP (%),measure
 uis_xunit_pppconst_2_fsgov,Government expenditure per lower secondary student (constant PPP$),measure
@@ -1350,21 +1367,29 @@ se_prm_gint_fe_zs,"Gross intake ratio to Grade 1 of primary education, female (%
 uis_air_1_gpi,"Gross intake ratio to Grade 1 of primary education, gender parity index (GPI)",measure
 se_prm_gint_ma_zs,"Gross intake ratio to Grade 1 of primary education, male (%)",measure
 uis_goer_56,"Gross outbound enrolment ratio, all regions, both sexes (%)",measure
+uis_illpopf_ag25t64,"Illiterate population, 25-64 years, % female",measure
+uis_illpop_ag25t64,"Illiterate population, 25-64 years, both sexes (number)",measure
+uis_illpop_ag25t64_f,"Illiterate population, 25-64 years, female (number)",measure
+uis_illpop_ag25t64_m,"Illiterate population, 25-64 years, male (number)",measure
 uis_msep_56,"Inbound mobility rate, both sexes (%)",measure
 uis_msep_56_f,"Inbound mobility rate, female (%)",measure
 uis_msep_56_m,"Inbound mobility rate, male (%)",measure
 it_net_user_p2,Internet users (per 100 people),measure
-sl_tlf_prim_zs,Labor force with primary education (% of total),measure
-sl_tlf_prim_fe_zs,"Labor force with primary education, female (% of female labor force)",measure
-sl_tlf_prim_ma_zs,"Labor force with primary education, male (% of male labor force)",measure
-sl_tlf_seco_zs,Labor force with secondary education (% of total),measure
-sl_tlf_seco_fe_zs,"Labor force with secondary education, female (% of female labor force)",measure
-sl_tlf_seco_ma_zs,"Labor force with secondary education, male (% of male labor force)",measure
-sl_tlf_tert_zs,Labor force with tertiary education (% of total),measure
-sl_tlf_tert_fe_zs,"Labor force with tertiary education, female (% of female labor force)",measure
-sl_tlf_tert_ma_zs,"Labor force with tertiary education, male (% of male labor force)",measure
+sl_tlf_advn_zs,Labor force with advanced education (% of total),measure
+sl_tlf_advn_fe_zs,"Labor force with advanced education, female (% of female labor force)",measure
+sl_tlf_advn_ma_zs,"Labor force with advanced education, male (% of male labor force)",measure
+sl_tlf_basc_zs,Labor force with basic education (% of total),measure
+sl_tlf_basc_fe_zs,"Labor force with basic education, female (% of female labor force)",measure
+sl_tlf_basc_ma_zs,"Labor force with basic education, male (% of male labor force)",measure
+sl_tlf_intm_zs,Labor force with intermediate education (% of total),measure
+sl_tlf_intm_fe_zs,"Labor force with intermediate education, female (% of female labor force)",measure
+sl_tlf_intm_ma_zs,"Labor force with intermediate education, male (% of male labor force)",measure
 sl_tlf_totl_fe_zs,"Labor force, female (% of total labor force)",measure
 sl_tlf_totl_in,"Labor force, total",measure
+uis_lr_ag25t64,"Literacy rate, population 25-64 years, both sexes (%)",measure
+uis_lr_ag25t64_f,"Literacy rate, population 25-64 years, female (%)",measure
+uis_lr_ag25t64_gpi,"Literacy rate, population 25-64 years, gender parity index (GPI)",measure
+uis_lr_ag25t64_m,"Literacy rate, population 25-64 years, male (%)",measure
 lo_llece_mat3_0,LLECE: 3rd grade students by mathematics proficiency level (%). Below Level 1,measure
 lo_llece_mat3_1,LLECE: 3rd grade students by mathematics proficiency level (%). Level 1,measure
 lo_llece_mat3_2,LLECE: 3rd grade students by mathematics proficiency level (%). Level 2,measure
@@ -1672,6 +1697,10 @@ se_prm_uner,"Out-of-school children of primary school age, both sexes (number)",
 se_prm_uner_fe,"Out-of-school children of primary school age, female (number)",measure
 se_prm_uner_ma,"Out-of-school children of primary school age, male (number)",measure
 uis_fofstp_1,"Out-of-school children of primary school age, percentage female (%)",measure
+uis_ofst_3_cp,"Out-of-school youth of upper secondary school age, both sexes (number)",measure
+uis_ofst_3_f_cp,"Out-of-school youth of upper secondary school age, female (number)",measure
+uis_ofst_3_m_cp,"Out-of-school youth of upper secondary school age, male (number)",measure
+uis_fofstp_3,"Out-of-school youth of upper secondary school age, percentage female (%)",measure
 uis_oapp_1,"Over-age enrolment ratio in primary education, both sexes (%)",measure
 uis_oapp_1_f,"Over-age enrolment ratio in primary education, female (%)",measure
 uis_oapp_1_m,"Over-age enrolment ratio in primary education, male (%)",measure
@@ -1820,6 +1849,8 @@ uis_tep_5_b,"Percentage of all students in tertiary education enrolled in ISCED 
 uis_tep_6,"Percentage of all students in tertiary education enrolled in ISCED 6, both sexes (%)",measure
 uis_tep_7,"Percentage of all students in tertiary education enrolled in ISCED 7, both sexes (%)",measure
 uis_tep_8,"Percentage of all students in tertiary education enrolled in ISCED 8, both sexes (%)",measure
+uis_prp_0,Percentage of enrolment in early childhood education programmes in private institutions (%),measure
+uis_prp_01,Percentage of enrolment in early childhood educational development programmes in private institutions (%),measure
 uis_prp_2,Percentage of enrolment in lower secondary education in private institutions (%),measure
 uis_prp_4,Percentage of enrolment in post-secondary non-tertiary education in private institutions (%),measure
 se_pre_priv_zs,Percentage of enrolment in pre-primary education in private institutions (%),measure
@@ -1870,6 +1901,7 @@ se_ter_grad_fe_ed_zs,Percentage of graduates from Education programmes in tertia
 se_ter_grad_fe_en_zs,"Percentage of graduates from Engineering, Manufacturing and Construction programmes in tertiary education who are female (%)",measure
 se_ter_grad_fe_hl_zs,Percentage of graduates from Health and Welfare programmes in tertiary education who are female (%),measure
 se_ter_grad_fe_hu_zs,Percentage of graduates from Humanities and Arts programmes in tertiary education who are female (%),measure
+uis_fgp_56_fnon400500,Percentage of graduates from non-science and non-technology fields in tertiary education who are female (%),measure
 se_ter_grad_fe_ot_zs,Percentage of graduates from programmes in unspecified fields in tertiary education who are female (%),measure
 uis_fgp_56_f400500,Percentage of graduates from Science and Technology programmes in tertiary education who are female (%),measure
 se_ter_grad_fe_sc_zs,Percentage of graduates from Science programmes in tertiary education who are female (%),measure
@@ -1970,6 +2002,7 @@ uis_repp_1_g6_m,"Percentage of repeaters in Grade 6 of primary education, male (
 uis_repp_1_g7,"Percentage of repeaters in Grade 7 of primary education, both sexes (%)",measure
 uis_repp_1_g7_f,"Percentage of repeaters in Grade 7 of primary education, female (%)",measure
 uis_repp_1_g7_m,"Percentage of repeaters in Grade 7 of primary education, male (%)",measure
+uis_repp_2_gpv_gpi,"Percentage of repeaters in lower secondary education, all grades, gender parity index (GPI)",measure
 uis_repp_2_gpv,"Percentage of repeaters in lower secondary general education, all grades, both sexes (%)",measure
 uis_repp_2_gpv_f,"Percentage of repeaters in lower secondary general education, all grades, female (%)",measure
 uis_repp_2_gpv_m,"Percentage of repeaters in lower secondary general education, all grades, male (%)",measure
@@ -1988,6 +2021,8 @@ uis_fep_56_fuk,Percentage of students enrolled in programmes in unspecified fiel
 uis_fep_56_f400,Percentage of students enrolled in Science programmes in tertiary education who are female (%),measure
 uis_fep_56_f800,Percentage of students enrolled in Services programmes in tertiary education who are female (%),measure
 uis_fep_56_f300,"Percentage of students enrolled in Social Sciences, Business and Law programmes in tertiary education who are female (%)",measure
+uis_fep_0,Percentage of students in early childhood education who are female (%),measure
+uis_fep_01,Percentage of students in early childhood educational development programmes who are female (%),measure
 uis_gtvp_2_gpv,"Percentage of students in lower secondary education enrolled in general programmes, both sexes (%)",measure
 uis_gtvp_2_v,"Percentage of students in lower secondary education enrolled in vocational programmes, both sexes (%)",measure
 uis_fep_2,Percentage of students in lower secondary education who are female (%),measure
@@ -2025,22 +2060,27 @@ uis_fep_3,Percentage of students in upper secondary education who are female (%)
 uis_fep_3_gpv,Percentage of students in upper secondary general education who are female (%),measure
 uis_fep_3_v,Percentage of students in upper secondary vocational education who are female (%),measure
 uis_ftp_2,Percentage of teachers in lower secondary education who are female (%),measure
+uis_qutp_2,"Percentage of teachers in lower secondary education who are qualified, both sexes (%)",measure
 uis_trtp_2,"Percentage of teachers in lower secondary education who are trained, both sexes (%)",measure
 uis_trtp_2_gpi,"Percentage of teachers in lower secondary education who are trained, gender parity index (GPI)",measure
 uis_ftp_4,Percentage of teachers in post-secondary non-tertiary education who are female (%),measure
 uis_trtp_4,"Percentage of teachers in post-secondary non-tertiary education who are trained, both sexes (%)",measure
 uis_trtp_4_gpi,"Percentage of teachers in post-secondary non-tertiary education who are trained, gender parity index (GPI)",measure
 se_pre_tchr_fe_zs,Percentage of teachers in pre-primary education who are female (%),measure
+uis_qutp_02,"Percentage of teachers in pre-primary education who are qualified, both sexes (%)",measure
 uis_trtp_0,"Percentage of teachers in pre-primary education who are trained, both sexes (%)",measure
 uis_trtp_0_gpi,"Percentage of teachers in pre-primary education who are trained, gender parity index (GPI)",measure
 se_prm_tchr_fe_zs,Percentage of teachers in primary education who are female (%),measure
+uis_qutp_1,"Percentage of teachers in primary education who are qualified, both sexes (%)",measure
 se_prm_tcaq_zs,"Percentage of teachers in primary education who are trained, both sexes (%)",measure
 uis_trtp_1_gpi,"Percentage of teachers in primary education who are trained, gender parity index (GPI)",measure
 se_sec_tchr_fe_zs,Percentage of teachers in secondary education who are female (%),measure
+uis_qutp_2t3,"Percentage of teachers in secondary education who are qualified, both sexes (%)",measure
 se_sec_tcaq_zs,"Percentage of teachers in secondary education who are trained, both sexes (%)",measure
 uis_trtp_23_gpi,"Percentage of teachers in secondary education who are trained, gender parity index (GPI)",measure
 se_ter_tchr_fe_zs,Percentage of teachers in tertiary education who are female (%),measure
 uis_ftp_3,Percentage of teachers in upper secondary education who are female (%),measure
+uis_qutp_3,"Percentage of teachers in upper secondary education who are qualified, both sexes (%)",measure
 uis_trtp_3,"Percentage of teachers in upper secondary education who are trained, both sexes (%)",measure
 uis_trtp_3_gpi,"Percentage of teachers in upper secondary education who are trained, gender parity index (GPI)",measure
 it_cmp_pcmp_p2,Personal computers (per 100 people),measure
@@ -2088,40 +2128,32 @@ lo_piaac_lit_fe_be,PIAAC: Female adults by literacy proficiency level (%). Below
 lo_piaac_lit_fe_1,PIAAC: Female adults by literacy proficiency level (%). Level 1,measure
 lo_piaac_lit_fe_2,PIAAC: Female adults by literacy proficiency level (%). Level 2,measure
 lo_piaac_lit_fe_3,PIAAC: Female adults by literacy proficiency level (%). Level 3,measure
-lo_piaac_lit_fe_4,PIAAC: Female adults by literacy proficiency level (%). Level 4,measure
-lo_piaac_lit_fe_5,PIAAC: Female adults by literacy proficiency level (%). Level 5,measure
+lo_piaac_lit_fe_45,PIAAC: Female adults by literacy proficiency level (%). Level 4 & 5,measure
 lo_piaac_num_fe_be,PIAAC: Female adults by numeracy proficiency level (%). Below Level 1,measure
 lo_piaac_num_fe_1,PIAAC: Female adults by numeracy proficiency level (%). Level 1,measure
 lo_piaac_num_fe_2,PIAAC: Female adults by numeracy proficiency level (%). Level 2,measure
 lo_piaac_num_fe_3,PIAAC: Female adults by numeracy proficiency level (%). Level 3,measure
-lo_piaac_num_fe_4,PIAAC: Female adults by numeracy proficiency level (%). Level 4,measure
-lo_piaac_num_fe_5,PIAAC: Female adults by numeracy proficiency level (%). Level 5,measure
+lo_piaac_num_fe_45,PIAAC: Female adults by numeracy proficiency level (%). Level 4 & 5,measure
 lo_piaac_tec_fe_be,PIAAC: Female adults by proficiency level in problem solving in technology-rich environments (%). Below Level 1,measure
-lo_piaac_tec_fe_fail,PIAAC: Female adults by proficiency level in problem solving in technology-rich environments (%). Failed ICT Core Test,measure
 lo_piaac_tec_fe_1,PIAAC: Female adults by proficiency level in problem solving in technology-rich environments (%). Level 1,measure
 lo_piaac_tec_fe_2,PIAAC: Female adults by proficiency level in problem solving in technology-rich environments (%). Level 2,measure
 lo_piaac_tec_fe_3,PIAAC: Female adults by proficiency level in problem solving in technology-rich environments (%). Level 3,measure
-lo_piaac_tec_fe_no,PIAAC: Female adults by proficiency level in problem solving in technology-rich environments (%). No computer experience,measure
-lo_piaac_tec_fe_opt,PIAAC: Female adults by proficiency level in problem solving in technology-rich environments (%). Opted out of computer-based assessment,measure
+lo_piaac_tec_fe_failno,PIAAC: Female adults by proficiency level in problem solving in technology-rich environments (%). No computer experience or failed the ICT core test,measure
 lo_piaac_lit_ma_be,PIAAC: Male adults by literacy proficiency level (%). Below Level 1,measure
 lo_piaac_lit_ma_1,PIAAC: Male adults by literacy proficiency level (%). Level 1,measure
 lo_piaac_lit_ma_2,PIAAC: Male adults by literacy proficiency level (%). Level 2,measure
 lo_piaac_lit_ma_3,PIAAC: Male adults by literacy proficiency level (%). Level 3,measure
-lo_piaac_lit_ma_4,PIAAC: Male adults by literacy proficiency level (%). Level 4,measure
-lo_piaac_lit_ma_5,PIAAC: Male adults by literacy proficiency level (%). Level 5,measure
+lo_piaac_lit_ma_45,PIAAC: Male adults by literacy proficiency level (%). Level 4 & 5,measure
 lo_piaac_num_ma_be,PIAAC: Male adults by numeracy proficiency level (%). Below Level 1,measure
 lo_piaac_num_ma_1,PIAAC: Male adults by numeracy proficiency level (%). Level 1,measure
 lo_piaac_num_ma_2,PIAAC: Male adults by numeracy proficiency level (%). Level 2,measure
 lo_piaac_num_ma_3,PIAAC: Male adults by numeracy proficiency level (%). Level 3,measure
-lo_piaac_num_ma_4,PIAAC: Male adults by numeracy proficiency level (%). Level 4,measure
-lo_piaac_num_ma_5,PIAAC: Male adults by numeracy proficiency level (%). Level 5,measure
+lo_piaac_num_ma_45,PIAAC: Male adults by numeracy proficiency level (%). Level 4 & 5,measure
 lo_piaac_tec_ma_be,PIAAC: Male adults by proficiency level in problem solving in technology-rich environments (%). Below Level 1,measure
-lo_piaac_tec_ma_fail,PIAAC: Male adults by proficiency level in problem solving in technology-rich environments (%). Failed ICT Core Test,measure
 lo_piaac_tec_ma_1,PIAAC: Male adults by proficiency level in problem solving in technology-rich environments (%). Level 1,measure
 lo_piaac_tec_ma_2,PIAAC: Male adults by proficiency level in problem solving in technology-rich environments (%). Level 2,measure
 lo_piaac_tec_ma_3,PIAAC: Male adults by proficiency level in problem solving in technology-rich environments (%). Level 3,measure
-lo_piaac_tec_ma_no,PIAAC: Male adults by proficiency level in problem solving in technology-rich environments (%). No computer experience,measure
-lo_piaac_tec_ma_opt,PIAAC: Male adults by proficiency level in problem solving in technology-rich environments (%). Opted out of computer-based assessment,measure
+lo_piaac_tec_ma_failno,PIAAC: Male adults by proficiency level in problem solving in technology-rich environments (%). No computer experience or failed the ICT core test,measure
 lo_piaac_lit_fe,PIAAC: Mean Adult Literacy Proficiency. Female,measure
 lo_piaac_lit_ma,PIAAC: Mean Adult Literacy Proficiency. Male,measure
 lo_piaac_lit,PIAAC: Mean Adult Literacy Proficiency. Total,measure
@@ -2138,20 +2170,17 @@ lo_piaac_lit_you_be,PIAAC: Young adults by literacy proficiency level (%). Below
 lo_piaac_lit_you_1,PIAAC: Young adults by literacy proficiency level (%). Level 1,measure
 lo_piaac_lit_you_2,PIAAC: Young adults by literacy proficiency level (%). Level 2,measure
 lo_piaac_lit_you_3,PIAAC: Young adults by literacy proficiency level (%). Level 3,measure
-lo_piaac_lit_you_4,PIAAC: Young adults by literacy proficiency level (%). Level 4,measure
-lo_piaac_lit_you_5,PIAAC: Young adults by literacy proficiency level (%). Level 5,measure
+lo_piaac_lit_you_45,PIAAC: Young adults by literacy proficiency level (%). Level 4 & 5,measure
 lo_piaac_num_you_be,PIAAC: Young adults by numeracy proficiency level (%). Below Level 1,measure
 lo_piaac_num_you_1,PIAAC: Young adults by numeracy proficiency level (%). Level 1,measure
 lo_piaac_num_you_2,PIAAC: Young adults by numeracy proficiency level (%). Level 2,measure
 lo_piaac_num_you_3,PIAAC: Young adults by numeracy proficiency level (%). Level 3,measure
-lo_piaac_num_you_4,PIAAC: Young adults by numeracy proficiency level (%). Level 4,measure
-lo_piaac_num_you_5,PIAAC: Young adults by numeracy proficiency level (%). Level 5,measure
+lo_piaac_num_you_45,PIAAC: Young adults by numeracy proficiency level (%). Level 4 & 5,measure
 lo_piaac_tec_you_be,PIAAC: Young adults by proficiency level in problem solving in technology-rich environments (%). Below Level 1,measure
-lo_piaac_tec_you_fail,PIAAC: Young adults by proficiency level in problem solving in technology-rich environments (%). Failed ICT Core Test,measure
 lo_piaac_tec_you_1,PIAAC: Young adults by proficiency level in problem solving in technology-rich environments (%). Level 1,measure
 lo_piaac_tec_you_2,PIAAC: Young adults by proficiency level in problem solving in technology-rich environments (%). Level 2,measure
 lo_piaac_tec_you_3,PIAAC: Young adults by proficiency level in problem solving in technology-rich environments (%). Level 3,measure
-lo_piaac_tec_you_no,PIAAC: Young adults by proficiency level in problem solving in technology-rich environments (%). No computer experience,measure
+lo_piaac_tec_you_failno,PIAAC: Young adults by proficiency level in problem solving in technology-rich environments (%). No computer experience or failed the ICT core test,measure
 lo_piaac_tec_you_opt,PIAAC: Young adults by proficiency level in problem solving in technology-rich environments (%). Opted out of computer-based assessment,measure
 lo_pirls_rea_p10,PIRLS: Distribution of Reading Scores: 10th Percentile Score,measure
 lo_pirls_rea_p25,PIRLS: Distribution of Reading Scores: 25th Percentile Score,measure
@@ -2193,8 +2222,9 @@ lo_pisa_rea_3,PISA: 15-year-olds by reading proficiency level (%). Level 3,measu
 lo_pisa_rea_4,PISA: 15-year-olds by reading proficiency level (%). Level 4,measure
 lo_pisa_rea_5,PISA: 15-year-olds by reading proficiency level (%). Level 5,measure
 lo_pisa_rea_6,PISA: 15-year-olds by reading proficiency level (%). Level 6,measure
-lo_pisa_sci_0,PISA: 15-year-olds by science proficiency level (%). Below Level 1,measure
-lo_pisa_sci_1,PISA: 15-year-olds by science proficiency level (%). Level 1,measure
+lo_pisa_sci_0,PISA: 15-year-olds by science proficiency level (%). Below Level 1B,measure
+lo_pisa_sci_1a,PISA: 15-year-olds by science proficiency level (%). Level 1A,measure
+lo_pisa_sci_1b,PISA: 15-year-olds by science proficiency level (%). Level 1B,measure
 lo_pisa_sci_2,PISA: 15-year-olds by science proficiency level (%). Level 2,measure
 lo_pisa_sci_3,PISA: 15-year-olds by science proficiency level (%). Level 3,measure
 lo_pisa_sci_4,PISA: 15-year-olds by science proficiency level (%). Level 4,measure
@@ -2236,8 +2266,9 @@ lo_pisa_rea_3_fe,PISA: Female 15-year-olds by reading proficiency level (%). Lev
 lo_pisa_rea_4_fe,PISA: Female 15-year-olds by reading proficiency level (%). Level 4,measure
 lo_pisa_rea_5_fe,PISA: Female 15-year-olds by reading proficiency level (%). Level 5,measure
 lo_pisa_rea_6_fe,PISA: Female 15-year-olds by reading proficiency level (%). Level 6,measure
-lo_pisa_sci_0_fe,PISA: Female 15-year-olds by science proficiency level (%). Below Level 1,measure
-lo_pisa_sci_1_fe,PISA: Female 15-year-olds by science proficiency level (%). Level 1,measure
+lo_pisa_sci_0_fe,PISA: Female 15-year-olds by science proficiency level (%). Below Level 1B,measure
+lo_pisa_sci_1a_fe,PISA: Female 15-year-olds by science proficiency level (%). Level 1A,measure
+lo_pisa_sci_1b_fe,PISA: Female 15-year-olds by science proficiency level (%). Level 1B,measure
 lo_pisa_sci_2_fe,PISA: Female 15-year-olds by science proficiency level (%). Level 2,measure
 lo_pisa_sci_3_fe,PISA: Female 15-year-olds by science proficiency level (%). Level 3,measure
 lo_pisa_sci_4_fe,PISA: Female 15-year-olds by science proficiency level (%). Level 4,measure
@@ -2258,8 +2289,9 @@ lo_pisa_rea_3_ma,PISA: Male 15-year-olds by reading proficiency level (%). Level
 lo_pisa_rea_4_ma,PISA: Male 15-year-olds by reading proficiency level (%). Level 4,measure
 lo_pisa_rea_5_ma,PISA: Male 15-year-olds by reading proficiency level (%). Level 5,measure
 lo_pisa_rea_6_ma,PISA: Male 15-year-olds by reading proficiency level (%). Level 6,measure
-lo_pisa_sci_0_ma,PISA: Male 15-year-olds by science proficiency level (%). Below Level 1,measure
-lo_pisa_sci_1_ma,PISA: Male 15-year-olds by science proficiency level (%). Level 1,measure
+lo_pisa_sci_0_ma,PISA: Male 15-year-olds by science proficiency level (%). Below Level 1B,measure
+lo_pisa_sci_1a_ma,PISA: Male 15-year-olds by science proficiency level (%). Level 1A,measure
+lo_pisa_sci_1b_ma,PISA: Male 15-year-olds by science proficiency level (%). Level 1B,measure
 lo_pisa_sci_2_ma,PISA: Male 15-year-olds by science proficiency level (%). Level 2,measure
 lo_pisa_sci_3_ma,PISA: Male 15-year-olds by science proficiency level (%). Level 3,measure
 lo_pisa_sci_4_ma,PISA: Male 15-year-olds by science proficiency level (%). Level 4,measure
@@ -2506,6 +2538,16 @@ se_prm_cmpt_zs,"Primary completion rate, both sexes (%)",measure
 se_prm_cmpt_fe_zs,"Primary completion rate, female (%)",measure
 uis_air_1_glast_gpi,"Primary completion rate, gender parity index (GPI)",measure
 se_prm_cmpt_ma_zs,"Primary completion rate, male (%)",measure
+uis_ptrhc_2_qualified,Pupil/qualified teacher ratio in lower secondary (headcount basis),measure
+uis_ptrhc_02_qualified,Pupil/qualified teacher ratio in pre-primary education (headcount basis),measure
+uis_ptrhc_1_qualified,Pupil/qualified teacher ratio in primary education (headcount basis),measure
+uis_ptrhc_2t3_qualified,Pupil/qualified teacher ratio in secondary (headcount basis),measure
+uis_ptrhc_3_qualified,Pupil/qualified teacher ratio in upper secondary (headcount basis),measure
+uis_ptrhc_2_trained,Pupil/trained teacher ratio in lower secondary education (headcount basis),measure
+uis_ptrhc_02_trained,Pupil/trained teacher ratio in pre-primary education (headcount basis),measure
+uis_ptrhc_1_trained,Pupil/trained teacher ratio in primary education (headcount basis),measure
+uis_ptrhc_2t3_trained,Pupil/trained teacher ratio in secondary education (headcount basis),measure
+uis_ptrhc_3_trained,Pupil/trained teacher ratio in upper secondary education (headcount basis),measure
 uis_ptrhc_2,Pupil-teacher ratio in lower secondary education (headcount basis),measure
 se_pre_enrl_tc_zs,Pupil-teacher ratio in pre-primary education (headcount basis),measure
 se_prm_enrl_tc_zs,Pupil-teacher ratio in primary education (headcount basis),measure
@@ -2521,6 +2563,9 @@ uis_rofsppt_1_m,"Rate of out-of-school children of primary school age in pre-pri
 uis_rofst_1,"Rate of out-of-school children of primary school age, both sexes (%)",measure
 uis_rofst_1_f,"Rate of out-of-school children of primary school age, female (%)",measure
 uis_rofst_1_m,"Rate of out-of-school children of primary school age, male (%)",measure
+uis_rofst_3_cp,"Rate of out-of-school youth of upper secondary school age, both sexes (%)",measure
+uis_rofst_3_f_cp,"Rate of out-of-school youth of upper secondary school age, female (%)",measure
+uis_rofst_3_m_cp,"Rate of out-of-school youth of upper secondary school age, male (%)",measure
 uis_r_2_gpv_g1,"Repeaters in Grade 1 of lower secondary general education, both sexes (number)",measure
 uis_r_2_gpv_g1_f,"Repeaters in Grade 1 of lower secondary general education, female (number)",measure
 uis_r_1_g1,"Repeaters in Grade 1 of primary education, both sexes (number)",measure
@@ -2651,6 +2696,34 @@ saber_prvt_goal4_lvl3,SABER: (Engaging the Private Sector) Policy Goal 4 Lever 3
 saber_prvt_goal4_lvl4,SABER: (Engaging the Private Sector) Policy Goal 4 Lever 4: Market entry,measure
 saber_prvt_goal4_lvl5,SABER: (Engaging the Private Sector) Policy Goal 4 Lever 5: Regulatory fees,measure
 saber_prvt_goal4,SABER: (Engaging the Private Sector) Policy Goal 4: Promoting diversity of supply,measure
+saber_grvt_goal5_lvl1,"SABER: (Engaging the Private Sector, Government funded) Policy Goal 5 Lever 1: Teacher standards",measure
+saber_grvt_goal5_lvl2,"SABER: (Engaging the Private Sector, Government funded) Policy Goal 5 Lever 2: Appointment and deployment of teachers",measure
+saber_grvt_goal5_lvl3,"SABER: (Engaging the Private Sector, Government funded) Policy Goal 5 Lever 3: Teacher salaries",measure
+saber_grvt_goal5_lvl4,"SABER: (Engaging the Private Sector, Government funded) Policy Goal 5 Lever 4: Teacher dismissal",measure
+saber_grvt_goal5_lvl5,"SABER: (Engaging the Private Sector, Government funded) Policy Goal 5 Lever 5: Curriculum delivery",measure
+saber_grvt_goal5_lvl6,"SABER: (Engaging the Private Sector, Government funded) Policy Goal 5 Lever 6: Classroom resourcing",measure
+saber_grvt_goal5_lvl7,"SABER: (Engaging the Private Sector, Government funded) Policy Goal 5 Lever 7: Budget autonomy",measure
+saber_grvt_goal5,"SABER: (Engaging the Private Sector, Government funded) Policy Goal 5: Encouraging innovation by providers",measure
+saber_grvt_goal6_lvl1,"SABER: (Engaging the Private Sector, Government funded) Policy Goal 6 Lever 1: Student standards",measure
+saber_grvt_goal6_lvl2,"SABER: (Engaging the Private Sector, Government funded) Policy Goal 6 Lever 2: Student assessment",measure
+saber_grvt_goal6_lvl3,"SABER: (Engaging the Private Sector, Government funded) Policy Goal 6 Lever 3: Financial reporting",measure
+saber_grvt_goal6_lvl4,"SABER: (Engaging the Private Sector, Government funded) Policy Goal 6 Lever 4: Inspection",measure
+saber_grvt_goal6_lvl5,"SABER: (Engaging the Private Sector, Government funded) Policy Goal 6 Lever 5: Improvement planning",measure
+saber_grvt_goal6_lvl6,"SABER: (Engaging the Private Sector, Government funded) Policy Goal 6 Lever 6: Sanctions and rewards",measure
+saber_grvt_goal6,"SABER: (Engaging the Private Sector, Government funded) Policy Goal 6: Holding schools accountable",measure
+saber_grvt_goal7_lvl1,"SABER: (Engaging the Private Sector, Government funded) Policy Goal 7 Lever 1: Information",measure
+saber_grvt_goal7_lvl2,"SABER: (Engaging the Private Sector, Government funded) Policy Goal 7 Lever 2: Voice",measure
+saber_grvt_goal7_lvl3,"SABER: (Engaging the Private Sector, Government funded) Policy Goal 7 Lever 3: Selection",measure
+saber_grvt_goal7_lvl4,"SABER: (Engaging the Private Sector, Government funded) Policy Goal 7 Lever 4: Contributions",measure
+saber_grvt_goal7,"SABER: (Engaging the Private Sector, Government funded) Policy Goal 7: Empowering all parents, students, and communities",measure
+saber_grvt_goal8_lvl1,"SABER: (Engaging the Private Sector, Government funded) Policy Goal 8 Lever 1: Ownership",measure
+saber_grvt_goal8_lvl2,"SABER: (Engaging the Private Sector, Government funded) Policy Goal 8 Lever 2: Certification standards",measure
+saber_grvt_goal8_lvl3,"SABER: (Engaging the Private Sector, Government funded) Policy Goal 8 Lever 3: Market entry information",measure
+saber_grvt_goal8_lvl4,"SABER: (Engaging the Private Sector, Government funded) Policy Goal 8 Lever 4: Regulatory fees",measure
+saber_grvt_goal8_lvl5,"SABER: (Engaging the Private Sector, Government funded) Policy Goal 8 Lever 5: Funding",measure
+saber_grvt_goal8_lvl6,"SABER: (Engaging the Private Sector, Government funded) Policy Goal 8 Lever 6: Incentives",measure
+saber_grvt_goal8_lvl7,"SABER: (Engaging the Private Sector, Government funded) Policy Goal 8 Lever 7: Planning",measure
+saber_grvt_goal8,"SABER: (Engaging the Private Sector, Government funded) Policy Goal 8: Promoting diversity of supply",measure
 saber_sch_atnm_goal1_lvl1,SABER: (School Autonomy Accountability) Policy Goal 1 Lever 1: Legal authority over the management of the operational budget,measure
 saber_sch_atnm_goal1_lvl2,SABER: (School Autonomy Accountability) Policy Goal 1 Lever 2: Legal authority over the management of the non-teaching staff salaries,measure
 saber_sch_atnm_goal1_lvl3,SABER: (School Autonomy Accountability) Policy Goal 1 Lever 3: Legal authority over the management of teacher salaries,measure
@@ -2663,8 +2736,8 @@ saber_sch_atnm_goal2_lvl3,SABER: (School Autonomy Accountability) Policy Goal 2 
 saber_sch_atnm_goal2,SABER: (School Autonomy Accountability) Policy Goal 2: Level of autonomy in personnel management,measure
 saber_sch_atnm_goal3_lvl1,SABER: (School Autonomy Accountability) Policy Goal 3 Lever 1: Participation of the school councils in budget preparation,measure
 saber_sch_atnm_goal3_lvl2,SABER: (School Autonomy Accountability) Policy Goal 3 Lever 2: Participation of the school councils in financial oversight,measure
-saber_sch_atnm_goal3_lvl3,SABER: (School Autonomy Accountability) Policy Goal 3 Lever 3: Participation of the school councils in school activities,measure
-saber_sch_atnm_goal3_lvl4,SABER: (School Autonomy Accountability) Policy Goal 3 Lever 4: Participation of the school councils in personnel oversight,measure
+saber_sch_atnm_goal3_lvl3,SABER: (School Autonomy Accountability) Policy Goal 3 Lever 3: Participation of the school councils in personnel management,measure
+saber_sch_atnm_goal3_lvl4,SABER: (School Autonomy Accountability) Policy Goal 3 Lever 4: Participation of the school councils in school activities,measure
 saber_sch_atnm_goal3_lvl5,SABER: (School Autonomy Accountability) Policy Goal 3 Lever 5: Participation of the school councils in learning inputs,measure
 saber_sch_atnm_goal3_lvl6,SABER: (School Autonomy Accountability) Policy Goal 3 Lever 6: Transparency in community participation,measure
 saber_sch_atnm_goal3,SABER: (School Autonomy Accountability) Policy Goal 3: Role of the school council on school governance,measure
@@ -2680,14 +2753,14 @@ saber_sch_atnm_goal5_lvl3,"SABER: (School Autonomy Accountability) Policy Goal 5
 saber_sch_atnm_goal5_lvl4,SABER: (School Autonomy Accountability) Policy Goal 5 Lever 4: Degree of Accountability in school operations,measure
 saber_sch_atnm_goal5_lvl5,SABER: (School Autonomy Accountability) Policy Goal 5 Lever 5: Degree of learning accountability,measure
 saber_sch_atnm_goal5,SABER: (School Autonomy Accountability) Policy Goal 5: School Accountability,measure
-saber_sch_fnnc_goal1_lvl1,SABER: (School Finance) Policy Goal 1 Lever 1: Are there policies to ensure basic inputs?,measure
-saber_sch_fnnc_goal1_lvl2,SABER: (School Finance) Policy Goal 1 Lever 2: Are there 3 learning goals?,measure
+saber_sch_fnnc_goal1_lvl1,SABER: (School Finance) Policy Goal 1 Lever 1: Are there policies and systems set up to provide basic educational inputs to all?,measure
+saber_sch_fnnc_goal1_lvl2,SABER: (School Finance) Policy Goal 1 Lever 2: Are there basic educational inputs for all primary school students?,measure
 saber_sch_fnnc_goal1,SABER: (School Finance) Policy Goal 1: Ensuring basic conditions for learning,measure
-saber_sch_fnnc_goal2_lvl1,SABER: (School Finance) Policy Goal 2 Lever 1: Are there systems in place to monitor learning conditions?,measure
-saber_sch_fnnc_goal2_lvl2,SABER: (School Finance) Policy Goal 2 Lever 2: Are there systems in place to assess learning outcomes?,measure
+saber_sch_fnnc_goal2_lvl1,SABER: (School Finance) Policy Goal 2 Lever 1: Does the government provide more resources to students from disadvantaged backgrounds?,measure
+saber_sch_fnnc_goal2_lvl2,SABER: (School Finance) Policy Goal 2 Lever 2: Do payments for schooling represent a high share of income for low income households?,measure
 saber_sch_fnnc_goal2,SABER: (School Finance) Policy Goal 2: Monitoring learning conditions and outcomes,measure
-saber_sch_fnnc_goal3_lvl1,SABER: (School Finance) Policy Goal 3 Lever 1: What mechanisms are in place to verify the availability of physical resources at schools?,measure
-saber_sch_fnnc_goal3_lvl2,SABER: (School Finance) Policy Goal 3 Lever 2: What mechanisms are in place to verify the availability of human resources at schools?,measure
+saber_sch_fnnc_goal3_lvl1,SABER: (School Finance) Policy Goal 3 Lever 1: Are resources allocated and disbursed in a manner that is transparent and effective?,measure
+saber_sch_fnnc_goal3_lvl2,SABER: (School Finance) Policy Goal 3 Lever 2: Do monitoring and auditing processes encourage accountability in the use of funding?,measure
 saber_sch_fnnc_goal3,SABER: (School Finance) Policy Goal 3: Overseeing service delivery,measure
 saber_sch_fnnc_goal4_lvl1,SABER: (School Finance) Policy Goal 4 Lever 1: Is there an informed budget process?,measure
 saber_sch_fnnc_goal4_lvl2,SABER: (School Finance) Policy Goal 4 Lever 2: Is the budget comprehensive and transparent?,measure
@@ -2751,6 +2824,23 @@ saber_tech_goal8_lvl1,SABER: (Teachers) Policy Goal 8 Lever 1: Are career opport
 saber_tech_goal8_lvl2,SABER: (Teachers) Policy Goal 8 Lever 2: Are there mechanisms to hold teachers accountable?,measure
 saber_tech_goal8_lvl3,SABER: (Teachers) Policy Goal 8 Lever 3: Is teacher compensation linked to performance?,measure
 saber_tech_goal8,SABER: (Teachers) Policy Goal 8: Motivating teachers to perform,measure
+saber_ter_goal1_lvl1,SABER: (Tertiary Education) Policy Goal 1 Lever 1: Clear vision,measure
+saber_ter_goal1,SABER: (Tertiary Education) Policy Goal 1: Vision for Tertiary Education,measure
+saber_ter_goal2_lvl1,SABER: (Tertiary Education) Policy Goal 2 Lever 1: Steering the system,measure
+saber_ter_goal2,SABER: (Tertiary Education) Policy Goal 2: Regulatory Framework for Tertiary Education,measure
+saber_ter_goal3_lvl1,SABER: (Tertiary Education) Policy Goal 3 Lever 1: Articulation,measure
+saber_ter_goal3_lvl2,SABER: (Tertiary Education) Policy Goal 3 Lever 2: Institutional autonomy,measure
+saber_ter_goal3,SABER: (Tertiary Education) Policy Goal 3: Governance,measure
+saber_ter_goal4_lvl1,SABER: (Tertiary Education) Policy Goal 4 Lever 1: Coverage of resource allocation,measure
+saber_ter_goal4_lvl2,SABER: (Tertiary Education) Policy Goal 4 Lever 2: Resource allocation,measure
+saber_ter_goal4_lvl3,SABER: (Tertiary Education) Policy Goal 4 Lever 3: Resource utilization (Equity),measure
+saber_ter_goal4,SABER: (Tertiary Education) Policy Goal 4: Finance,measure
+saber_ter_goal5_lvl1,SABER: (Tertiary Education) Policy Goal 5 Lever 1: Accreditation and Institutional Quality Standards,measure
+saber_ter_goal5,SABER: (Tertiary Education) Policy Goal 5: Quality Assurance,measure
+saber_ter_goal6_lvl1,SABER: (Tertiary Education) Policy Goal 6 Lever 1: Economic Development,measure
+saber_ter_goal6_lvl2,SABER: (Tertiary Education) Policy Goal 6 Lever 2: Fostering RDI and Innovation,measure
+saber_ter_goal6_lvl3,SABER: (Tertiary Education) Policy Goal 6 Lever 3: Fostering Social and Cultural Development and Environmental Protection and Sustainability,measure
+saber_ter_goal6,SABER: (Tertiary Education) Policy Goal 6: The Relevance of Tertiary Education for Economic and Social Needs,measure
 saber_work_goal1_lvl1,SABER: (Workforce Development) Policy Goal 1 Lever 1: Setting a Strategic Direction,measure
 saber_work_goal1_lvl2,SABER: (Workforce Development) Policy Goal 1 Lever 2: Fostering a Demand-Driven Approach,measure
 saber_work_goal1_lvl3,SABER: (Workforce Development) Policy Goal 1 Lever 3: Strengthening Critical Coordination,measure

@@ -1,243 +1,243 @@
 name,country
 Arab World,arb
-East Asia & Pacific (developing only),eap
-East Asia & Pacific (all income levels),eas
-Europe & Central Asia (developing only),eca
-Europe & Central Asia (all income levels),ecs
+East Asia & Pacific,eas
+East Asia & Pacific (excluding high income),eap
 Euro area,emu
+Europe & Central Asia,ecs
+Europe & Central Asia (excluding high income),eca
 European Union,euu
-Fragile and conflict affected situations,fcs
-High income,hic
 Heavily indebted poor countries (HIPC),hpc
-Latin America & Caribbean (developing only),lac
-Latin America & Caribbean (all income levels),lcn
+High income,hic
+Latin America & Caribbean,lcn
+Latin America & Caribbean (excluding high income),lac
 Least developed countries: UN classification,ldc
+Low & middle income,lmy
 Low income,lic
 Lower middle income,lmc
-Low & middle income,lmy
-Middle East & North Africa (all income levels),mea
+Middle East & North Africa,mea
+Middle East & North Africa (excluding high income),mna
 Middle income,mic
-Middle East & North Africa (developing only),mna
 North America,nac
-High income: nonOECD,noc
-High income: OECD,oec
 OECD members,oed
 South Asia,sas
-Sub-Saharan Africa (developing only),ssa
-Sub-Saharan Africa (all income levels),ssf
+Sub-Saharan Africa,ssf
+Sub-Saharan Africa (excluding high income),ssa
 Upper middle income,umc
 World,wld
-Aruba,abw
-Andorra,ado
 Afghanistan,afg
-Angola,ago
 Albania,alb
-United Arab Emirates,are
+Algeria,dza
+American Samoa,asm
+Andorra,and
+Angola,ago
+Antigua and Barbuda,atg
 Argentina,arg
 Armenia,arm
-American Samoa,asm
-Antigua and Barbuda,atg
+Aruba,abw
 Australia,aus
 Austria,aut
 Azerbaijan,aze
-Burundi,bdi
-Belgium,bel
-Benin,ben
-Burkina Faso,bfa
-Bangladesh,bgd
-Bulgaria,bgr
-Bahrain,bhr
 "Bahamas, The",bhs
-Bosnia and Herzegovina,bih
-Belarus,blr
-Belize,blz
-Bermuda,bmu
-Bolivia,bol
-Brazil,bra
+Bahrain,bhr
+Bangladesh,bgd
 Barbados,brb
-Brunei Darussalam,brn
+Belarus,blr
+Belgium,bel
+Belize,blz
+Benin,ben
+Bermuda,bmu
 Bhutan,btn
+Bolivia,bol
+Bosnia and Herzegovina,bih
 Botswana,bwa
-Central African Republic,caf
+Brazil,bra
+British Virgin Islands,vgb
+Brunei Darussalam,brn
+Bulgaria,bgr
+Burkina Faso,bfa
+Burundi,bdi
+Cabo Verde,cpv
+Cambodia,khm
+Cameroon,cmr
 Canada,can
-Switzerland,che
+Cayman Islands,cym
+Central African Republic,caf
+Chad,tcd
 Channel Islands,chi
 Chile,chl
 China,chn
-Cote d'Ivoire,civ
-Cameroon,cmr
-"Congo, Rep.",cog
 Colombia,col
 Comoros,com
-Cabo Verde,cpv
+"Congo, Dem. Rep.",cod
+"Congo, Rep.",cog
 Costa Rica,cri
+Cote d'Ivoire,civ
+Croatia,hrv
 Cuba,cub
 Curacao,cuw
-Cayman Islands,cym
 Cyprus,cyp
 Czech Republic,cze
-Germany,deu
+Denmark,dnk
 Djibouti,dji
 Dominica,dma
-Denmark,dnk
 Dominican Republic,dom
-Algeria,dza
 Ecuador,ecu
 "Egypt, Arab Rep.",egy
+El Salvador,slv
+Equatorial Guinea,gnq
 Eritrea,eri
-Spain,esp
 Estonia,est
 Ethiopia,eth
-Finland,fin
+Faroe Islands,fro
 Fiji,fji
+Finland,fin
 France,fra
-Faeroe Islands,fro
-"Micronesia, Fed. Sts.",fsm
+French Polynesia,pyf
 Gabon,gab
-United Kingdom,gbr
-Georgia,geo
-Ghana,gha
-Guinea,gin
 "Gambia, The",gmb
-Guinea-Bissau,gnb
-Equatorial Guinea,gnq
+Georgia,geo
+Germany,deu
+Ghana,gha
+Gibraltar,gib
 Greece,grc
-Grenada,grd
 Greenland,grl
-Guatemala,gtm
+Grenada,grd
 Guam,gum
+Guatemala,gtm
+Guinea,gin
+Guinea-Bissau,gnb
 Guyana,guy
-"Hong Kong SAR, China",hkg
-Honduras,hnd
-Croatia,hrv
 Haiti,hti
+Honduras,hnd
+"Hong Kong SAR, China",hkg
 Hungary,hun
-Indonesia,idn
-Isle of Man,imy
+Iceland,isl
 India,ind
-Ireland,irl
+Indonesia,idn
 "Iran, Islamic Rep.",irn
 Iraq,irq
-Iceland,isl
+Ireland,irl
+Isle of Man,imn
 Israel,isr
 Italy,ita
 Jamaica,jam
-Jordan,jor
 Japan,jpn
+Jordan,jor
 Kazakhstan,kaz
 Kenya,ken
-Kyrgyz Republic,kgz
-Cambodia,khm
 Kiribati,kir
-St. Kitts and Nevis,kna
+"Korea, Dem. People’s Rep.",prk
 "Korea, Rep.",kor
-Kosovo,ksv
+Kosovo,xkx
 Kuwait,kwt
+Kyrgyz Republic,kgz
 Lao PDR,lao
+Latvia,lva
 Lebanon,lbn
+Lesotho,lso
 Liberia,lbr
 Libya,lby
-St. Lucia,lca
 Liechtenstein,lie
-Sri Lanka,lka
-Lesotho,lso
 Lithuania,ltu
 Luxembourg,lux
-Latvia,lva
 "Macao SAR, China",mac
-St. Martin (French part),maf
-Morocco,mar
-Monaco,mco
-Moldova,mda
-Madagascar,mdg
-Maldives,mdv
-Mexico,mex
-Marshall Islands,mhl
 "Macedonia, FYR",mkd
-Mali,mli
-Malta,mlt
-Myanmar,mmr
-Montenegro,mne
-Mongolia,mng
-Northern Mariana Islands,mnp
-Mozambique,moz
-Mauritania,mrt
-Mauritius,mus
+Madagascar,mdg
 Malawi,mwi
 Malaysia,mys
+Maldives,mdv
+Mali,mli
+Malta,mlt
+Marshall Islands,mhl
+Mauritania,mrt
+Mauritius,mus
+Mexico,mex
+"Micronesia, Fed. Sts.",fsm
+Moldova,mda
+Monaco,mco
+Mongolia,mng
+Montenegro,mne
+Morocco,mar
+Mozambique,moz
+Myanmar,mmr
 Namibia,nam
+Nauru,nru
+Nepal,npl
+Netherlands,nld
 New Caledonia,ncl
+New Zealand,nzl
+Nicaragua,nic
 Niger,ner
 Nigeria,nga
-Nicaragua,nic
-Netherlands,nld
+Northern Mariana Islands,mnp
 Norway,nor
-Nepal,npl
-New Zealand,nzl
 Oman,omn
 Pakistan,pak
+Palau,plw
 Panama,pan
+Papua New Guinea,png
+Paraguay,pry
 Peru,per
 Philippines,phl
-Palau,plw
-Papua New Guinea,png
 Poland,pol
-Puerto Rico,pri
-"Korea, Dem. Rep.",prk
 Portugal,prt
-Paraguay,pry
-French Polynesia,pyf
+Puerto Rico,pri
 Qatar,qat
-Romania,rom
+Romania,rou
 Russian Federation,rus
 Rwanda,rwa
-Saudi Arabia,sau
-Sudan,sdn
-Senegal,sen
-Singapore,sgp
-Solomon Islands,slb
-Sierra Leone,sle
-El Salvador,slv
+Samoa,wsm
 San Marino,smr
-Somalia,som
-Serbia,srb
-South Sudan,ssd
 Sao Tome and Principe,stp
-Suriname,sur
+Saudi Arabia,sau
+Senegal,sen
+Serbia,srb
+Seychelles,syc
+Sierra Leone,sle
+Singapore,sgp
+Sint Maarten (Dutch part),sxm
 Slovak Republic,svk
 Slovenia,svn
-Sweden,swe
+Solomon Islands,slb
+Somalia,som
+South Africa,zaf
+South Sudan,ssd
+Spain,esp
+Sri Lanka,lka
+St. Kitts and Nevis,kna
+St. Lucia,lca
+St. Martin (French part),maf
+St. Vincent and the Grenadines,vct
+Sudan,sdn
+Suriname,sur
 Swaziland,swz
-Sint Maarten (Dutch part),sxm
-Seychelles,syc
+Sweden,swe
+Switzerland,che
 Syrian Arab Republic,syr
-Turks and Caicos Islands,tca
-Chad,tcd
-Togo,tgo
-Thailand,tha
 Tajikistan,tjk
-Turkmenistan,tkm
-Timor-Leste,tmp
+Tanzania,tza
+Thailand,tha
+Timor-Leste,tls
+Togo,tgo
 Tonga,ton
 Trinidad and Tobago,tto
 Tunisia,tun
 Turkey,tur
+Turkmenistan,tkm
+Turks and Caicos Islands,tca
 Tuvalu,tuv
-Tanzania,tza
 Uganda,uga
 Ukraine,ukr
-Uruguay,ury
+United Arab Emirates,are
+United Kingdom,gbr
 United States,usa
+Uruguay,ury
 Uzbekistan,uzb
-St. Vincent and the Grenadines,vct
-"Venezuela, RB",ven
-Virgin Islands (U.S.),vir
-Vietnam,vnm
 Vanuatu,vut
-West Bank and Gaza,wbg
-Samoa,wsm
+"Venezuela, RB",ven
+Vietnam,vnm
+Virgin Islands (U.S.),vir
+West Bank and Gaza,pse
 "Yemen, Rep.",yem
-South Africa,zaf
-"Congo, Dem. Rep.",zar
 Zambia,zmb
 Zimbabwe,zwe
