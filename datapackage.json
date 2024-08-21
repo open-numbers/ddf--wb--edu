@@ -1,13 +1,9 @@
 {
-    "name": "ddf--wb--edu",
     "language": {
-        "id": "en"
+        "name": "English",
+        "id": "en-US"
     },
-    "title": "ddf--wb--edu",
-    "description": "",
-    "author": "",
-    "license": "",
-    "created": "2019-09-05T09:12:42.769980+00:00",
+    "created": "2024-08-21T02:25:54.916Z",
     "resources": [
         {
             "name": "ddf--concepts--continuous",
@@ -24,7 +20,9 @@
                         "name": "concept_type"
                     }
                 ],
-                "primaryKey": "concept"
+                "primaryKey": [
+                    "concept"
+                ]
             }
         },
         {
@@ -42,7 +40,26 @@
                         "name": "concept_type"
                     }
                 ],
-                "primaryKey": "concept"
+                "primaryKey": [
+                    "concept"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--country",
+            "path": "ddf--entities--country.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "country"
+                    }
+                ],
+                "primaryKey": [
+                    "country"
+                ]
             }
         },
         {
@@ -77009,21 +77026,6 @@
                     "year"
                 ]
             }
-        },
-        {
-            "name": "ddf--entities--country",
-            "path": "ddf--entities--country.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "name"
-                    },
-                    {
-                        "name": "country"
-                    }
-                ],
-                "primaryKey": "country"
-            }
         }
     ],
     "ddfSchema": {
@@ -77034,8 +77036,8 @@
                 ],
                 "value": "concept_type",
                 "resources": [
-                    "ddf--concepts--continuous",
-                    "ddf--concepts--discrete"
+                    "ddf--concepts--discrete",
+                    "ddf--concepts--continuous"
                 ]
             },
             {
@@ -77044,8 +77046,8 @@
                 ],
                 "value": "name",
                 "resources": [
-                    "ddf--concepts--continuous",
-                    "ddf--concepts--discrete"
+                    "ddf--concepts--discrete",
+                    "ddf--concepts--continuous"
                 ]
             }
         ],
